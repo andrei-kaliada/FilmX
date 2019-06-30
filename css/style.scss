@@ -1,0 +1,21 @@
+    .bgSearch{
+        background-color: #343a40;
+        .wrapperSearch{
+            display: flex;
+            nav{
+                display: flex;
+                justify-content: space-between;
+                .navbar-brand{
+                    color: #fff;
+                    &:hover{
+                        opacity: 0.8;
+                    }
+                }
+                form{
+                    display: flex;
+                    
+                }
+            }
+                
+        }
+    }

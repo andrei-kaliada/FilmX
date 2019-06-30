@@ -1,0 +1,33 @@
+.bgSearch {
+  background-color: #343a40;
+}
+
+.bgSearch .wrapperSearch {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bgSearch .wrapperSearch nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.bgSearch .wrapperSearch nav .navbar-brand {
+  color: #fff;
+}
+
+.bgSearch .wrapperSearch nav .navbar-brand:hover {
+  opacity: 0.8;
+}
+
+.bgSearch .wrapperSearch nav form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
