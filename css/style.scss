@@ -13,6 +13,18 @@
                 }
                 form{
                     display: flex;
+
+                    .btnForm{
+                      margin-left: 10px;
+                      padding: 0 15px;
+                      border:1px solid #28a745;
+                      border-radius: 5px 5px;
+                      background: transparent;
+                      transition: 0.2s;
+                      &:hover{
+                        background: #28a745;
+                      }
+                    }
                     
                 }
             }
@@ -21,18 +33,41 @@
     }
 
 #movies{
-    
     .cardPoster{
         margin-top: 10px;
-        .imagePoster{
+        .img_poster{
            max-width:100%;
         }
+
+        
         h5{
             margin: 15px 0;
             text-align: center;
             
         }
     }
+
+    
+  .cardBorder{
+    cursor: pointer;
+    padding: 10px;
+    img{
+      border: 1px solid #e3e3e3;
+    }
+
+  }
+  .titlePosters{
+    h2{
+      text-align: center;
+      margin: 40px 0;
+    }
+  }
+
+  .linksOfficial{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
 
 }
 
@@ -57,6 +92,7 @@
     position: relative;
     width: 64px;
     height: 64px;
+    margin-top: 20px;
     top: 50%;
     left: 50%;
  

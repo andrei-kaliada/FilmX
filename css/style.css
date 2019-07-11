@@ -31,17 +31,54 @@
   display: flex;
 }
 
+.bgSearch .wrapperSearch nav form .btnForm {
+  margin-left: 10px;
+  padding: 0 15px;
+  border: 1px solid #28a745;
+  border-radius: 5px 5px;
+  background: transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.bgSearch .wrapperSearch nav form .btnForm:hover {
+  background: #28a745;
+}
+
 #movies .cardPoster {
   margin-top: 10px;
 }
 
-#movies .cardPoster .imagePoster {
+#movies .cardPoster .img_poster {
   max-width: 100%;
 }
 
 #movies .cardPoster h5 {
   margin: 15px 0;
   text-align: center;
+}
+
+#movies .cardBorder {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#movies .cardBorder img {
+  border: 1px solid #e3e3e3;
+}
+
+#movies .titlePosters h2 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#movies .linksOfficial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 10px;
 }
 
 @media (max-width: 575.98px) {
@@ -64,6 +101,7 @@
   position: relative;
   width: 64px;
   height: 64px;
+  margin-top: 20px;
   top: 50%;
   left: 50%;
 }
