@@ -45,26 +45,33 @@
   background: #28a745;
 }
 
-#movies .cardPoster {
+#movies .cardPoster .card {
+  cursor: pointer;
   margin-top: 10px;
+  -webkit-box-shadow: 0 0 5px rgba(143, 143, 143, 0.5);
+          box-shadow: 0 0 5px rgba(143, 143, 143, 0.5);
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
-#movies .cardPoster .img_poster {
+#movies .cardPoster .card:hover {
+  -webkit-box-shadow: 0 0 30px rgba(65, 65, 65, 0.5);
+          box-shadow: 0 0 30px rgba(65, 65, 65, 0.5);
+}
+
+#movies .cardPoster .card .img_poster {
   max-width: 100%;
 }
 
-#movies .cardPoster h5 {
+#movies .cardPoster .card h5 {
   margin: 15px 0;
   text-align: center;
 }
 
-#movies .cardBorder {
-  cursor: pointer;
-  padding: 10px;
-}
-
 #movies .cardBorder img {
+  padding: 5px;
   border: 1px solid #e3e3e3;
+  border-radius: 5px 5px;
 }
 
 #movies .titlePosters h2 {

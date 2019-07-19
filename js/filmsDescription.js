@@ -37,8 +37,8 @@ function showDescription(url) {
                 </div>    
             </div>
             `;
-            
-           getVideo(data.dataset.type,data.dataset.id);
+          
+           getVideo(this.dataset.type,this.dataset.id);
         })
         .catch(error => {
             console.log(`Error: ${error.status}`);

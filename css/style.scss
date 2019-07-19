@@ -34,25 +34,36 @@
 
 #movies{
     .cardPoster{
-        margin-top: 10px;
-        .img_poster{
-           max-width:100%;
-        }
-
-        
-        h5{
-            margin: 15px 0;
-            text-align: center;
-            
+        .card{
+          cursor: pointer;
+          margin-top: 10px;
+          box-shadow: 0 0 5px rgba(143, 143, 143, 0.5);
+          transition: 0.2s;
+          &:hover{
+            box-shadow: 0 0 30px rgba(65, 65, 65, 0.5);
+          }
+          .img_poster{
+             max-width:100%;
+          }
+  
+          
+          h5{
+              margin: 15px 0;
+              text-align: center;
+              
+          }
         }
     }
 
     
   .cardBorder{
-    cursor: pointer;
-    padding: 10px;
+
+    
     img{
+      padding: 5px;
       border: 1px solid #e3e3e3;
+      border-radius: 5px 5px;
+      
     }
 
   }
