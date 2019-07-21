@@ -57,10 +57,9 @@
 #movies .cardPoster .card:hover {
   -webkit-box-shadow: 0 0 30px rgba(65, 65, 65, 0.5);
           box-shadow: 0 0 30px rgba(65, 65, 65, 0.5);
-}
-
-#movies .cardPoster .card .img_poster {
-  max-width: 100%;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 1;
 }
 
 #movies .cardPoster .card h5 {
@@ -68,10 +67,11 @@
   text-align: center;
 }
 
-#movies .cardBorder img {
+#movies img {
   padding: 5px;
   border: 1px solid #e3e3e3;
   border-radius: 5px 5px;
+  max-width: 100%;
 }
 
 #movies .titlePosters h2 {

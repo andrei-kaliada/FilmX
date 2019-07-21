@@ -41,11 +41,9 @@
           transition: 0.2s;
           &:hover{
             box-shadow: 0 0 30px rgba(65, 65, 65, 0.5);
+            transform: scale(1.1);
+            z-index: 1;
           }
-          .img_poster{
-             max-width:100%;
-          }
-  
           
           h5{
               margin: 15px 0;
@@ -55,18 +53,14 @@
         }
     }
 
-    
-  .cardBorder{
 
-    
     img{
       padding: 5px;
       border: 1px solid #e3e3e3;
       border-radius: 5px 5px;
+      max-width:100%;
       
     }
-
-  }
   .titlePosters{
     h2{
       text-align: center;
